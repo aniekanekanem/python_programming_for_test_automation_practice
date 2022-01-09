@@ -5,4 +5,10 @@ def addition():
     b = float(input("Enter another Number"))
     print(a + b)
 
-addition()    
+def subtraction():
+    a = float(input("Enter a Number"))
+    b = float(input("Enter another Number"))
+    print(a - b)    
+
+addition()
+subtraction()    
